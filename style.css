@@ -1,0 +1,177 @@
+body {
+  color: white;
+  background-color: #1f2024;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+header h1,
+.heading {
+  margin: auto;
+  margin-top: 23px;
+  width: 80vw;
+  background-color: #292a2f;
+  border-radius: 8px;
+}
+
+header h1 {
+  height: 20vh;
+  text-align: center;
+}
+
+div.task {
+  /* align-items: center; */
+  justify-content: center;
+  padding: 5px;
+  height: 5vh;
+}
+
+.task {
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task:hover {
+  color: rgb(124, 146, 255);
+}
+
+.hvr {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.hvr .inp {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.hvr:hover {
+  background-color: #2e2f35;
+}
+
+.hvr:hover textarea {
+  background-color: #2e2f35;
+}
+
+.hvr:focus-within .myTextarea {
+  background-color: #2e2f35;
+}
+
+.hvr:focus-within {
+  background-color: #2e2f35;
+}
+
+.lg2 img {
+  display: none;
+  cursor: pointer;
+}
+
+.hvr:hover .lg2 img {
+  display: inline-block;
+}
+
+.hvr:focus-within .lg2 img {
+  display: inline-block;
+}
+
+.hvr .grd2 {
+  color: rgb(141, 147, 154);
+
+  &:focus {
+    color: white;
+  }
+}
+
+.myTextarea::placeholder {
+  line-height: 22px;
+}
+
+.myTextarea {
+  overflow-y: hidden;
+  height: 22px;
+  cursor: text;
+  color: white;
+  background-color: #292a2f;
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+.time {
+  cursor: pointer;
+  text-align: center;
+  border-radius: 60px;
+  border: none;
+  width: 100%;
+  font-weight: bolder;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #27272b;
+  color: #7bacfc;
+}
+
+.lg2 {
+  width: 20px;
+}
+
+.lg2 img:hover {
+  filter: brightness(10);
+}
+.delete img:hover {
+  filter: brightness(10);
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2e2f35;
+  border-radius: 6px; /* Rounded corners of the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #161616; /* Color of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3d3d3f; /* Color of the thumb on hover */
+}
+
+.notes {
+  display: flex;
+  gap: 10px;
+}
+.todoval {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linethrough {
+  text-decoration: line-through;
+  color: rgb(141, 147, 154);
+}
+.none {
+  display: none;
+}
+.grd1 {
+  font-size: x-large;
+}
+.input {
+  text-align: center;
+  font-size: medium;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="svg/logo.svg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="btn">TODO LIST</h1>
+    </header>
+    <div class="heading">
+        <div id="addn">
+            <div class="hvr">
+                <div class="inp">
+                    <textarea class="myTextarea input grd1" placeholder="Title"></textarea>
+                    <textarea class="myTextarea input grd2" placeholder="Details"></textarea>
+                    <input type="datetime-local" class="time" onclick="notedate(event)" />
+                </div>
+            </div>
+        </div>
+
+        <div class="task center" onclick="addnote()">
+            <div class="center"><img src="svg/icon copy.svg" alt="plus" />Add</div>
+        </div>
+
+        <div id="cmplt2">
+            <!-- This Container Is For The Completed Tasks -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
