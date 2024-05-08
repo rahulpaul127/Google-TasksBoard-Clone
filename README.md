@@ -1,7 +1,7 @@
 <!-- Header Section -->
 <h1 align="center">Google TaskBoard Clone</h1>
 <p align="center">
-  Simple todo list application inspired by Google's TaskBoard interface.<br>
+  Simple todo list application inspired by Google's TasksBoard interface.<br>
   Create tasks with a title, date, and details, saved in local storage.
 </p>
 
